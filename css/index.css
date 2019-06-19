@@ -172,12 +172,8 @@ header {
   width: 100%;
   border-bottom: 2px dashed silver;
 }
-header nav {
+header .top-bar {
   display: flex;
-  align-items: baseline;
-}
-header nav a {
-  justify-content: flex-end;
 }
 .footer {
   width: 100%;
