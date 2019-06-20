@@ -205,6 +205,14 @@ header .top-bar .home-nav a {
   text-decoration: none;
   margin: auto 30px;
 }
+@media (max-width: 500px) {
+  header .top-bar {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 9rem;
+  }
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
@@ -215,6 +223,11 @@ header .top-bar .home-nav a {
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
+}
+@media (max-width: 500px) {
+  .home {
+    width: 90%;
+  }
 }
 .home header h2 {
   padding-top: 20px;
@@ -228,9 +241,20 @@ header .top-bar .home-nav a {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+@media (max-width: 500px) {
+  .home .content-section {
+    flex-direction: column;
+  }
+}
 .home .content-section .text-content {
   width: 48%;
   padding-right: 1%;
+}
+@media (max-width: 500px) {
+  .home .content-section .text-content {
+    margin: auto;
+    width: 100%;
+  }
 }
 .home .content-section .img-content {
   width: 48%;
@@ -238,6 +262,17 @@ header .top-bar .home-nav a {
 }
 .home .content-section .img-content img {
   border-radius: 10px;
+}
+@media (max-width: 500px) {
+  .home .content-section .img-content img {
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .home .content-section .img-content {
+    width: 100%;
+    padding-left: 0;
+  }
 }
 .home .inverse-content {
   padding-bottom: 30px;
@@ -250,6 +285,11 @@ header .top-bar .home-nav a {
 .home .inverse-content .img-content {
   padding-right: 1%;
   padding-left: 0;
+}
+@media (max-width: 500px) {
+  .home .inverse-content .img-content {
+    width: 100%;
+  }
 }
 .home .content-destination {
   width: 75%;

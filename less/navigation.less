@@ -10,7 +10,7 @@ header {
         border-bottom: 2px dashed silver;
         display: flex;
         justify-content: space-between;
-        align-items: baseline;   
+        align-items: baseline;
 
         .home-nav {
 
@@ -19,9 +19,15 @@ header {
                 font-size: 1.6rem;
                 text-decoration: none;
                 margin: auto 30px;
-                // width: 8rem;
 
-            }
+            }   
+        }
+
+        @media @mobile {
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            height: 9rem;
         }
     }
 }
