@@ -1,3 +1,17 @@
+button {
+  width: 100%;
+  color: white;
+  background-color: #008080;
+  padding: 10px 0;
+  font-size: 18px;
+  border-radius: 16px;
+  opacity: 0.5;
+}
+@media (max-width: 500px) {
+  button {
+    background-color: #17A2B8;
+  }
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)

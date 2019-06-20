@@ -1,1 +1,25 @@
 // Mixins in here
+
+.button (@background) {
+    width: 100%;
+    color: white;
+    background-color: @background;
+    padding: 10px 0;
+    font-size: 18px;
+    border-radius: 16px;
+    opacity: 0.5;
+
+    // button:hover {
+    //     opacity: 1;
+    //     transition-duration: .5s;
+    // }
+
+    @media @mobile {
+        background-color: #17A2B8;
+    }
+}
+
+button {
+    .button (#008080);
+}
+  
