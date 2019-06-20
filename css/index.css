@@ -278,6 +278,11 @@ header .top-bar .home-nav a {
   padding-bottom: 30px;
   border-bottom: 2px dashed #C0C0C0;
 }
+@media (max-width: 500px) {
+  .home .inverse-content {
+    flex-direction: column-reverse;
+  }
+}
 .home .inverse-content .text-content {
   padding-left: 1%;
   padding-right: 0;
@@ -285,11 +290,6 @@ header .top-bar .home-nav a {
 .home .inverse-content .img-content {
   padding-right: 1%;
   padding-left: 0;
-}
-@media (max-width: 500px) {
-  .home .inverse-content .img-content {
-    width: 100%;
-  }
 }
 .home .content-destination {
   width: 75%;
