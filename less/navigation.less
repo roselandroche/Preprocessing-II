@@ -5,18 +5,27 @@ header {
     border-bottom: 2px dashed silver;
 
     .top-bar {
-        display: flex;
-        align-items: baseline;
         margin-top: 20px;
         padding-bottom: 15px;
         border-bottom: 2px dashed silver;
 
-        // h1 {
+        
 
-        // }
-
-        a {
+        nav {
+            display: flex;
+            justify-content: flex-end;
             
+            h1 {
+                align-self: flex-start;
+            }    
+
+            a {
+                color: @font-color;
+                font-size: 1.6rem;
+                text-decoration: none;
+                margin: auto 30px;
+
+            }
         }
     }
 }
