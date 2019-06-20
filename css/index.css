@@ -1,14 +1,19 @@
-button {
+.btn {
   width: 100%;
   color: white;
   background-color: #008080;
   padding: 10px 0;
   font-size: 18px;
   border-radius: 16px;
+  text-align: center;
   opacity: 0.5;
 }
+.btn:hover {
+  opacity: 1;
+  transition-duration: 0.5s;
+}
 @media (max-width: 500px) {
-  button {
+  .btn {
     background-color: #17A2B8;
   }
 }
