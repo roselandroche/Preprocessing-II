@@ -2,7 +2,7 @@
   width: 80%;
   color: white;
   background-color: #008080;
-  padding: 13px 0;
+  padding: 1.3rem 0;
   font-size: 1.8rem;
   border-radius: 10px;
   text-align: center;
@@ -172,23 +172,23 @@ h1 {
 }
 h2 {
   font-size: 3.2rem;
-  padding-bottom: 10px;
+  padding-bottom: 1rem;
 }
 h4 {
   font-size: 2.5rem;
-  padding-bottom: 10px;
+  padding-bottom: 1rem;
 }
 p {
   line-height: 1.5;
   font-size: 1.6rem;
-  padding-bottom: 10px;
+  padding-bottom: 1rem;
 }
 img {
   max-width: 100%;
   height: auto;
 }
 .container {
-  max-width: 800px;
+  max-width: 80rem;
   width: 100%;
   margin: 0 auto;
 }
@@ -197,8 +197,8 @@ header {
   border-bottom: 2px dashed silver;
 }
 header .top-bar {
-  margin-top: 20px;
-  padding-bottom: 15px;
+  margin-top: 2rem;
+  padding-bottom: 1.5rem;
   border-bottom: 2px dashed silver;
   display: flex;
   justify-content: space-between;
@@ -208,7 +208,7 @@ header .top-bar .home-nav a {
   color: #212529;
   font-size: 1.6rem;
   text-decoration: none;
-  margin: auto 30px;
+  margin: auto 3rem;
 }
 @media (max-width: 500px) {
   header .top-bar {
@@ -227,7 +227,7 @@ header .top-bar .home-nav a {
   text-align: center;
   color: #212529;
   font-size: 1.6rem;
-  padding: 20px;
+  padding: 2rem;
 }
 @media (max-width: 500px) {
   .home {
@@ -235,13 +235,13 @@ header .top-bar .home-nav a {
   }
 }
 .home header h2 {
-  padding-top: 20px;
+  padding-top: 2rem;
 }
 .home header p {
-  padding-bottom: 20px;
+  padding-bottom: 2rem;
 }
 .home .content-section {
-  margin: 30px 0;
+  margin: 3rem 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -280,7 +280,7 @@ header .top-bar .home-nav a {
   }
 }
 .home .inverse-content {
-  padding-bottom: 30px;
+  padding-bottom: 3rem;
   border-bottom: 2px dashed #C0C0C0;
 }
 @media (max-width: 500px) {
@@ -298,7 +298,7 @@ header .top-bar .home-nav a {
 }
 .home .content-destination {
   width: 75%;
-  margin: 0 auto 30px;
+  margin: 0 auto 3rem;
 }
 @media (max-width: 500px) {
   .home .content-destination {
@@ -309,7 +309,7 @@ header .top-bar .home-nav a {
   border-radius: 10px;
 }
 .home .content-pick {
-  padding-top: 30px;
+  padding-top: 3rem;
   border-top: 2px dashed #C0C0C0;
   display: flex;
   justify-content: space-between;
@@ -324,7 +324,7 @@ header .top-bar .home-nav a {
 }
 .home .content-pick .destination {
   width: 30%;
-  margin-bottom: 30px;
+  margin-bottom: 3rem;
 }
 @media (max-width: 500px) {
   .home .content-pick .destination {
